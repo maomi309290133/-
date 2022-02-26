@@ -1,0 +1,47 @@
+body{
+    /* h1标题仅用于各个网页的主标题*/
+    background-color:#B0C4DE;
+    /* 背景颜色的值*/
+    font-family:KaiTi,NSimSun,sans-serif;
+    /*设置字体样式*/
+}
+h1{
+    color:green;
+    /*设置h1标题的颜色值*/
+    cursor:pointer;
+    /* 设置鼠标放在字体上的样式为一把小手*/
+    font-size:40px;
+    /* 设置字体大小*/
+    font-family:KaiTi,NSimSun,sans-serif;
+    /*设置字体样式*/
+    text-align:center;
+     /*设置字体居中对齐*/
+    /*让所以的一级标题都居中对齐*/
+    border-bottom:1px solid red;
+    /*添加下划线*/
+}
+q{
+    /*修改引用的样式*/
+    color:red;
+    /*设置引用的颜色为红色*/
+}
+h2{
+    /*网站的二级标题*/
+    color:darkorange;
+    /*设置二级标题的颜色*/
+
+
+}
+a:link{
+    /*未访问的链接*/
+    color:darkblue;
+    /*设置未访问的链接颜色*/
+}
+a:visited{
+    color:red;
+    /*访问后链接颜色为红色*/
+}
+a:hover{
+    color:darkorange;
+    /*鼠标经过时链接的颜色*/
+}
